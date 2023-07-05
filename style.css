@@ -45,7 +45,7 @@ body {
 #form {
     height: 250px;
     width: 300px;
-    display: block;
+    display: none;
     background-color: #d5ffcf;
     padding: 20px;
     margin: 40px 137px;
