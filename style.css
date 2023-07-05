@@ -14,6 +14,7 @@ body {
     font-family: 'Shantell Sans', cursive;
     width: 600px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
 }
 
 #left-margin {
@@ -31,51 +32,12 @@ body {
     width: 500px;
 }
 
-.task {
-    margin-top: 10px;
-    border-bottom: solid 1px #a9a9a9;
-}
-
-#new-task input {
-    width: 500px;
-    font-family: 'Golos Text', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Shantell Sans', cursive;
+#btn-add{
+    background-image: url('./imgs/botao-adicionar.png');
+    position: relative;
+    top: 340px;
+    left: 475px;
+    height: 30px;
     border: none;
-    margin-top: 10px;
-    margin-left: 15px;
-    border-bottom: solid 1px #a9a9a9;
-}
-
-#new-task input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px #a9a9a9;
-}
-
-#trash {
-    position: fixed;
-    bottom:0px;
-    right: 0;
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-}
-#github-icon {
-    position: fixed;
-    bottom:165px;
-    right: 420px;
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-}
-#footer{
-    float: none;
-    display: block;
+    background-color: #d5ffcf;
 }
